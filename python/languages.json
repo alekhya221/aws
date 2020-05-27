@@ -1,0 +1,12 @@
+[
+  {
+    "language": "c",
+    "extension": ".c",
+    "file_name": "main.c"
+  },
+  {
+    "language": "Python",
+    "extension": ".py",
+    "file_name": "main.py"
+  }
+]

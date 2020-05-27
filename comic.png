@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link rel="stylesheet" href="../bootstrap/bootstrap.min.css" />
+        <script src="../bootstrap/jquery.min.js"></script>
+        <script src="../bootstrap/popper.min.js"></script>
+        <script src="../bootstrap/bootstrap.min.js"></script>
+        <style>
+            .gmail {
+                width: 40px;
+                height: 40px;
+                object-fit: contain;
+            }
+
+            .left {
+                text-align: left;
+            }
+
+            .right {
+                text-align: right;
+            }
+
+            .gmail-bor {
+                border-bottom: 2px solid lightgrey;
+            }
+
+            .row {
+                margin: 0px;
+            }
+
+            .full-width {
+                width: 100%;
+                object-fit: contain;
+            }
+
+            .pad {
+                padding-top: 40px;
+            }
+
+            .cen {
+                text-align: center;
+            }
+
+            .but {
+                padding-top: 10px;
+                padding-left: 50px;
+            }
+        </style>
+
+        <body>
+            <div class="row gmail-bor logo-container">
+                <div class="col-6 left">
+                    <p style="color:grey" ;><img class="gmail" src="../assignment-12/assets/logo-gmail.png" alt="GMAIL">Gmail</p>
+                </div>
+                <div class="col-6 right">
+                    <a class="btn btn-primary" href="https://htmlreference.io">Get Gmail</a>
+                </div>
+            </div>
+            <div class="row pad">
+                <div class="col-6 left">
+                    <button type="button" class="btn btn">For work</button>
+                </div>
+                <div class="col-6 right">
+                    <button type="button" class="btn btn">Sign in</button>
+                </div>
+            </div>
+            <div class="row cen">
+                <div class="col-12 ">
+                    <h1>Get More Done With Gmail</h1>
+                    <p>No more secure,smarter easier to use-helping you save time and do more </p>
+                    <img src="../assignment-12/assets/landing-page-image-mobile.png" alt="desktop" class="full-width">
+                    <button type="button" class="btn btn-primary but">Get Gmail</button>
+                </div>
+            </div>
+
+
+        </body>
